@@ -8,11 +8,11 @@ terraform {
 }
 
 resource "google_storage_bucket" "example" {
-  name     = "remote-crossplane-example-woolpert-io"
+  name     = "remote-crossplane-example-io"
   location = "US"
 }
 
 resource "google_storage_bucket" "example2" {
-  name     = "remote-crossplane-example-woolpert-io2"
+  name     = "remote-crossplane-example-io2"
   location = "US"
 }
